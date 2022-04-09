@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="33.616979">
+<testcase classname="To validate the registraion of FB account" name="To validate the new accout registration on FB application" time="10.274971">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at org.stepdefinition.FbSignUpRegistration.to_enter_the_first_name_in_the_text_box(FbSignUpRegistration.java:41)&#13;&#10;&#9;at ✽.To enter the first name in the text box(C:/Users/USER/eclipse-workspace/CucumberSample/src/test/resources/Feature/FbRegisterAccount.feature:10)&#13;&#10;"><![CDATA[When To launch the facebook application in browser..........................passed
+And To click on the new account registration button.........................passed
+And To enter the first name in the text box.................................failed
+And To enter the last name in the text box..................................skipped
+And To enter the email id in the text box...................................skipped
+And To enter the password in the text box...................................skipped
+Then The user need to close the current browser of FB application...........skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.stepdefinition.FbSignUpRegistration.to_enter_the_first_name_in_the_text_box(FbSignUpRegistration.java:41)
+	at ✽.To enter the first name in the text box(C:/Users/USER/eclipse-workspace/CucumberSample/src/test/resources/Feature/FbRegisterAccount.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="To validate FB fuctionality" name="To validate the login that is the valid username and invalid password" time="4.730383">
+<system-out><![CDATA[When To launch the FB url in the browser....................................passed
+And To pass the valid username in the email field...........................passed
+And To pass the invalid password in the password field......................passed
+And To click on to the login button.........................................passed
+And To check whether it is navigated to the home page.......................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate FB fuctionality" name="To validate the login functioality in FB using positive and negative combination" time="4.51394">
+<system-out><![CDATA[When To launch the url for the facebook application.........................passed
+And To send the positive and negative "abc@gmail.com" in email field........passed
+And To send the positive and negative "12356564" in password field..........passed
+And To click the login button in the facebook application...................passed
+Then The user has to close the window.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate FB fuctionality" name="To validate the login functioality in FB using positive and negative combination 2" time="4.486313">
+<system-out><![CDATA[When To launch the url for the facebook application.........................passed
+And To send the positive and negative "def@gmail.com" in email field........passed
+And To send the positive and negative "45679871" in password field..........passed
+And To click the login button in the facebook application...................passed
+Then The user has to close the window.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate FB fuctionality" name="To validate the login functioality in FB using positive and negative combination 3" time="4.853379">
+<system-out><![CDATA[When To launch the url for the facebook application.........................passed
+And To send the positive and negative "hjk@gmail.com" in email field........passed
+And To send the positive and negative "75364122" in password field..........passed
+And To click the login button in the facebook application...................passed
+Then The user has to close the window.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate FB fuctionality" name="To validate the login functioality in FB using positive and negative combination 4" time="4.757993">
+<system-out><![CDATA[When To launch the url for the facebook application.........................passed
+And To send the positive and negative "lmn@gmail.com" in email field........passed
+And To send the positive and negative "24552532" in password field..........passed
+And To click the login button in the facebook application...................passed
+Then The user has to close the window.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
